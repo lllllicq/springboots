@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8">
+    <title th:text="${title}">
+    </title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="../static/css/x-admin.css" media="all">
+    <style type="text/css">
+        .layui-input-own{
+            border: 0;
+            width: 95%;
+            padding-top: 10px;
+            padding-bottom: 10px
+        }
+    </style>
+</head>
+
+<body>
+<div class="x-body">
+    <form class="layui-form" id="formsedit">
+        <input type="hidden" name="Cid" th:value="${data?.id}" />
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label for="Cname" class="layui-form-label">
+                    参数表
+                </label>
+                <div class="layui-input-inline">
+                    <input type="text" id="Cname" name="Cname" required th:value="${data?.name}"class="layui-input" required lay-verify="required">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label for="Ccontent" class="layui-form-label">
+                    说明
+                </label>
+                <div class="layui-input-inline">
+                    <input type="text" id="Ccontent" name="Ccontent" required th:value="${data?.content}"class="layui-input">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <a onclick="addRow()" href="javascript:;"title="添加参数"><i class="layui-icon">&#xe608;</i></a>
+            </div>
+        </div>
+        <div class="layui-form-item" style="margin-bottom: 50px;">
+            <div class="layui-input-block" style="margin:0px">
+                <table class="layui-table">
+                    <thead>
+                    <tr>
+                        <th>
+                            参数名
+                        </th>
+                        <th>
+                            说明
+                        </th>
+                        <th>
+                            类型
+                        </th>
+                        <th>
+                            长度
+                        </th>
+                        <th style="width: 45px;">
+                            是否空
+                        </th>
+                        <th>
+                            备注
+                        </th>
+                        <th style="width:28px">
+                            操作
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr th:each="li:${list}">
+                            <td style="padding: 1px 0px;text-align: center">
+                                <input th:value="${li.name}" name="name" class="layui-input-own" required lay-verify="required" />
+                            </td>
+                            <td style="padding: 1px 0px;text-align: center">
+                                <input th:value="${li.content}" name="content" required lay-verify="required"class="layui-input-own" />
+                            </td>
+                            <td style="padding: 1px 0px;text-align: center">
+                                <input th:value="${li.type}" name="type" class="layui-input-own" required lay-verify="required" />
+                            </td>
+                            <td style="padding: 1px 0px;text-align: center">
+                                <input th:value="${li.length}" name="length" type="number"required lay-verify="required" class="layui-input-own" style=""  />
+                            </td>
+                            <td style="padding: 1px 0px;text-align: center">
+                                <select name="isnull" class="layui-input-own" required lay-verify="required">
+                                    <option th:selected="${li.isnull==0}" value="0">否</option>
+                                    <option th:selected="${li.isnull==1}" value="1">是</option>
+                                </select>
+                            </td>
+                            <td style="padding: 1px 0px;text-align: center">
+                                <input th:value="${li.remake}" name="remake"required lay-verify="required" class="layui-input-own"/>
+                            </td>
+                            <td style="padding: 1px 0px;text-align: center"><a title="删除" href="javascript:;" onclick="removeRow(this)"><i class="layui-icon">&#xe640;</i></a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="layui-form-item" style="text-align: center;bottom: 0px;left: 0px;position: fixed;width: 100%;">
+            <br/>
+            <button class="layui-btn" key="set-mine" lay-filter="save" lay-submit>
+                保存
+            </button>
+        </div>
+    </form>
+</div>
+<script src="../static/js/jquery.min.js" charset="utf-8"></script>
+<script src="../static/layui/layui.js" charset="utf-8">
+</script>
+<script src="../static/js/x-layui.js" charset="utf-8">
+</script>
+<script  th:inline="javascript">
+    var tr0="";
+    $(document).ready(function(){
+       tr0='<tr>\n' +
+           '                            <td style="padding: 1px 0px;text-align: center">\n' +
+           '                                <input name="name" class="layui-input-own" required lay-verify="required" />\n' +
+           '                            </td>\n' +
+           '                            <td style="padding: 1px 0px;text-align: center">\n' +
+           '                                <input name="content" class="layui-input-own" required lay-verify="required" />\n' +
+           '                            </td>\n' +
+           '                            <td style="padding: 1px 0px;text-align: center">\n' +
+           '                                <input name="type" class="layui-input-own" required lay-verify="required" />\n' +
+           '                            </td>\n' +
+           '                            <td style="padding: 1px 0px;text-align: center">\n' +
+           '                                <input name="length" type="number" class="layui-input-own" required lay-verify="required"style=""  />\n' +
+           '                            </td>\n' +
+           '                            <td style="padding: 1px 0px;text-align: center">' +
+           '                                <select class="layui-input-own" lay-verify="required" name="isnull" required="">\n' +
+           '                                    <option value="0" selected="selected">否</option>\n' +
+           '                                    <option value="1">是</option>\n' +
+           '                                </select>' +
+           '                                <div class="layui-unselect layui-form-select">' +
+           '                                    <div class="layui-select-title">' +
+           '                                        <input type="text" placeholder="否" value="否" readonly="" class="layui-input layui-unselect"><i class="layui-edge"></i>' +
+           '                                    </div>' +
+           '                                    <dl class="layui-anim layui-anim-upbit">' +
+           '                                        <dd lay-value="0" class="layui-this">否</dd>' +
+           '                                        <dd lay-value="1" class="">是</dd>' +
+           '                                    </dl>' +
+           '                                </div>' +
+           '                            </td>\n' +
+           '                            <td style="padding: 1px 0px;text-align: center">\n' +
+           '                                <input name="remake" class="layui-input-own" required lay-verify="required"/>\n' +
+           '                            </td>\n' +
+           '                            <td style="padding: 1px 0px;text-align: center"><a title="删除" href="javascript:;" onclick="removeRow(this)"><i class="layui-icon">&#xe640;</i></a></td>\n' +
+           '                        </tr>';
+       var Cname=$("#Cname").val();
+       if(Cname==null||Cname==""){
+           addRow()
+       }
+    });
+    var form;
+    var layer;
+    layui.use(['form','layer'], function(){
+        $ = layui.jquery;
+        form = layui.form();
+        layer = layui.layer;
+        form.on('submit(save)', function(data){
+            $.post("../sap/saveParams.html?_="+new Date().getTime(),$("#formsedit").serialize(),function(res){
+                if(res.result){
+                    layer.alert("保存成功", {icon: 6});
+                    parent.location.reload();
+                }else{
+                    layer.alert("保存失败", {icon: 6});
+                    parent.location.reload();
+                }
+            },'json');
+            return false;
+        });
+    });
+    function removeRow(obj){
+        $(obj).parent().parent("tr").remove();
+    }
+    function addRow(){
+        $("tbody").append(tr0);
+        if(form){
+            form.render('select');
+        }
+        if($("tbody").find("tr").length<2){
+            var lastRow=$("tbody").find("tr")[0];
+            lastRow=$(lastRow).find("td").last();
+            $(lastRow).html("");
+        }
+    }
+</script>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?b393d153aeb26b46e9431fabaf0f6190";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+</body>
+
+</html>

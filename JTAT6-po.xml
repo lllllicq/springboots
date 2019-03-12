@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xml>
+  <e>
+    <approvalDate1>2018-12-21 09:30:38</approvalDate1>
+    <approvalDate2>2018-12-21 09:30:38</approvalDate2>
+    <approvalStatus>1</approvalStatus>
+    <approveOpinion/>
+    <approver1>1</approver1>
+    <approver2>1</approver2>
+    <cloudPoNumber>8700000732</cloudPoNumber>
+    <company>PC</company>
+    <confirmationDeliverytime>2019-01-23 00:00:00</confirmationDeliverytime>
+    <createtime>2018-12-21 09:30:38</createtime>
+    <currency>USD</currency>
+    <deliverytime>2018-12-20 14:32:09</deliverytime>
+    <factorySeparation>CN06</factorySeparation>
+    <grossWeight>0</grossWeight>
+    <id>10</id>
+    <isManualOrder>1</isManualOrder>
+    <item>10</item>
+    <library>TVMI</library>
+    <lineItemType>11</lineItemType>
+    <lineNumber>1</lineNumber>
+    <manufacturerCode>JTAT6</manufacturerCode>
+    <openAsn>15000</openAsn>
+    <poCreateUser/>
+    <poStatus>1</poStatus>
+    <poUpdateUser>1</poUpdateUser>
+    <price>410</price>
+    <productNumber>SD00200274J</productNumber>
+    <purchaseOrderId>1</purchaseOrderId>
+    <purchaseOrderNumber>13985</purchaseOrderNumber>
+    <purchasingCode>J76</purchasingCode>
+    <receivingNumber>80000</receivingNumber>
+    <sapStatus>1</sapStatus>
+    <singleWeight>1</singleWeight>
+    <spare1>1</spare1>
+    <spare2>1</spare2>
+    <spare3>1</spare3>
+    <spare4>1</spare4>
+    <spare5>1</spare5>
+    <specificationDescription>S RES 1/8W 0 +-5% 9/45</specificationDescription>
+    <synchronizationStatus>1</synchronizationStatus>
+    <updatetime null="true"/>
+    <version>1</version>
+    <volume>1</volume>
+  </e>
+  <e>
+    <approvalDate1>2018-12-21 09:30:38</approvalDate1>
+    <approvalDate2>2018-12-21 09:30:38</approvalDate2>
+    <approvalStatus>1</approvalStatus>
+    <approveOpinion/>
+    <approver1>1</approver1>
+    <approver2>1</approver2>
+    <cloudPoNumber>7600000732</cloudPoNumber>
+    <company>PC</company>
+    <confirmationDeliverytime>2019-01-08 00:00:00</confirmationDeliverytime>
+    <createtime>2018-12-21 09:30:38</createtime>
+    <currency>USD</currency>
+    <deliverytime>2018-12-20 14:32:09</deliverytime>
+    <factorySeparation>CN05</factorySeparation>
+    <grossWeight>0</grossWeight>
+    <id>11</id>
+    <isManualOrder>1</isManualOrder>
+    <item>10</item>
+    <library>TVMI</library>
+    <lineItemType>11</lineItemType>
+    <lineNumber>1</lineNumber>
+    <manufacturerCode>JTAT6</manufacturerCode>
+    <openAsn>15000</openAsn>
+    <poCreateUser/>
+    <poStatus>1</poStatus>
+    <poUpdateUser>1</poUpdateUser>
+    <price>410</price>
+    <productNumber>SD00200745J</productNumber>
+    <purchaseOrderId>1</purchaseOrderId>
+    <purchaseOrderNumber>13985</purchaseOrderNumber>
+    <purchasingCode>J76</purchasingCode>
+    <receivingNumber>80000</receivingNumber>
+    <sapStatus>1</sapStatus>
+    <singleWeight>1</singleWeight>
+    <spare1>1</spare1>
+    <spare2>1</spare2>
+    <spare3>1</spare3>
+    <spare4>1</spare4>
+    <spare5>1</spare5>
+    <specificationDescription>S RES 1/8W 0 +-5% /973</specificationDescription>
+    <synchronizationStatus>1</synchronizationStatus>
+    <updatetime null="true"/>
+    <version>1</version>
+    <volume>1</volume>
+  </e>
+  <e>
+    <approvalDate1>2018-12-21 09:30:38</approvalDate1>
+    <approvalDate2>2018-12-21 09:30:38</approvalDate2>
+    <approvalStatus>1</approvalStatus>
+    <approveOpinion/>
+    <approver1>1</approver1>
+    <approver2>1</approver2>
+    <cloudPoNumber>7760000732</cloudPoNumber>
+    <company>PC</company>
+    <confirmationDeliverytime null="true"/>
+    <createtime>2018-12-21 09:30:38</createtime>
+    <currency>USD</currency>
+    <deliverytime>2018-12-20 14:32:09</deliverytime>
+    <factorySeparation>CN07</factorySeparation>
+    <grossWeight>0</grossWeight>
+    <id>12</id>
+    <isManualOrder>1</isManualOrder>
+    <item>10</item>
+    <library>TVMI</library>
+    <lineItemType>11</lineItemType>
+    <lineNumber>1</lineNumber>
+    <manufacturerCode>JTAT6</manufacturerCode>
+    <openAsn>15000</openAsn>
+    <poCreateUser/>
+    <poStatus>1</poStatus>
+    <poUpdateUser>1</poUpdateUser>
+    <price>410</price>
+    <productNumber>SD00200385J</productNumber>
+    <purchaseOrderId>1</purchaseOrderId>
+    <purchaseOrderNumber>13985</purchaseOrderNumber>
+    <purchasingCode>J76</purchasingCode>
+    <receivingNumber>80000</receivingNumber>
+    <sapStatus>1</sapStatus>
+    <singleWeight>1</singleWeight>
+    <spare1>1</spare1>
+    <spare2>1</spare2>
+    <spare3>1</spare3>
+    <spare4>1</spare4>
+    <spare5>1</spare5>
+    <specificationDescription>S RES 1/8W 0 +-5% 3459</specificationDescription>
+    <synchronizationStatus>1</synchronizationStatus>
+    <updatetime null="true"/>
+    <version>1</version>
+    <volume>1</volume>
+  </e>
+  <e>
+    <approvalDate1>2018-12-21 09:30:38</approvalDate1>
+    <approvalDate2>2018-12-21 09:30:38</approvalDate2>
+    <approvalStatus>1</approvalStatus>
+    <approveOpinion/>
+    <approver1>1</approver1>
+    <approver2>1</approver2>
+    <cloudPoNumber>5300000732</cloudPoNumber>
+    <company>PC</company>
+    <confirmationDeliverytime null="true"/>
+    <createtime>2018-12-21 09:30:38</createtime>
+    <currency>USD</currency>
+    <deliverytime>2018-12-20 14:32:09</deliverytime>
+    <factorySeparation>CN04</factorySeparation>
+    <grossWeight>0</grossWeight>
+    <id>13</id>
+    <isManualOrder>1</isManualOrder>
+    <item>10</item>
+    <library>TVMI</library>
+    <lineItemType>11</lineItemType>
+    <lineNumber>1</lineNumber>
+    <manufacturerCode>JTAT6</manufacturerCode>
+    <openAsn>15000</openAsn>
+    <poCreateUser/>
+    <poStatus>1</poStatus>
+    <poUpdateUser>1</poUpdateUser>
+    <price>410</price>
+    <productNumber>SD00200845J</productNumber>
+    <purchaseOrderId>1</purchaseOrderId>
+    <purchaseOrderNumber>13985</purchaseOrderNumber>
+    <purchasingCode>J76</purchasingCode>
+    <receivingNumber>80000</receivingNumber>
+    <sapStatus>1</sapStatus>
+    <singleWeight>1</singleWeight>
+    <spare1>1</spare1>
+    <spare2>1</spare2>
+    <spare3>1</spare3>
+    <spare4>1</spare4>
+    <spare5>1</spare5>
+    <specificationDescription>S RES 1/8W 0 +-5% 3695</specificationDescription>
+    <synchronizationStatus>1</synchronizationStatus>
+    <updatetime null="true"/>
+    <version>1</version>
+    <volume>1</volume>
+  </e>
+  <e>
+    <approvalDate1>2018-12-21 09:30:38</approvalDate1>
+    <approvalDate2>2018-12-21 09:30:38</approvalDate2>
+    <approvalStatus>1</approvalStatus>
+    <approveOpinion/>
+    <approver1>1</approver1>
+    <approver2>1</approver2>
+    <cloudPoNumber>4300000732</cloudPoNumber>
+    <company>PC</company>
+    <confirmationDeliverytime null="true"/>
+    <createtime>2018-12-21 09:30:38</createtime>
+    <currency>USD</currency>
+    <deliverytime>2018-12-20 14:32:09</deliverytime>
+    <factorySeparation>CN06</factorySeparation>
+    <grossWeight>0</grossWeight>
+    <id>14</id>
+    <isManualOrder>1</isManualOrder>
+    <item>10</item>
+    <library>TVMI</library>
+    <lineItemType>11</lineItemType>
+    <lineNumber>1</lineNumber>
+    <manufacturerCode>JTAT6</manufacturerCode>
+    <openAsn>15000</openAsn>
+    <poCreateUser/>
+    <poStatus>1</poStatus>
+    <poUpdateUser>1</poUpdateUser>
+    <price>410</price>
+    <productNumber>SD00200835J</productNumber>
+    <purchaseOrderId>1</purchaseOrderId>
+    <purchaseOrderNumber>13985</purchaseOrderNumber>
+    <purchasingCode>J76</purchasingCode>
+    <receivingNumber>80000</receivingNumber>
+    <sapStatus>1</sapStatus>
+    <singleWeight>1</singleWeight>
+    <spare1>1</spare1>
+    <spare2>1</spare2>
+    <spare3>1</spare3>
+    <spare4>1</spare4>
+    <spare5>1</spare5>
+    <specificationDescription>S RES 1/8W 0 +-5% 6483</specificationDescription>
+    <synchronizationStatus>1</synchronizationStatus>
+    <updatetime null="true"/>
+    <version>1</version>
+    <volume>1</volume>
+  </e>
+  <e>
+    <approvalDate1>2018-12-21 09:30:38</approvalDate1>
+    <approvalDate2>2018-12-21 09:30:38</approvalDate2>
+    <approvalStatus>1</approvalStatus>
+    <approveOpinion/>
+    <approver1>1</approver1>
+    <approver2>1</approver2>
+    <cloudPoNumber>4300000732</cloudPoNumber>
+    <company>PC</company>
+    <confirmationDeliverytime null="true"/>
+    <createtime>2018-12-21 09:30:38</createtime>
+    <currency>USD</currency>
+    <deliverytime>2018-12-20 14:32:09</deliverytime>
+    <factorySeparation>CN08</factorySeparation>
+    <grossWeight>0</grossWeight>
+    <id>15</id>
+    <isManualOrder>1</isManualOrder>
+    <item>10</item>
+    <library>TVMI</library>
+    <lineItemType>11</lineItemType>
+    <lineNumber>1</lineNumber>
+    <manufacturerCode>JTAT6</manufacturerCode>
+    <openAsn>15000</openAsn>
+    <poCreateUser/>
+    <poStatus>1</poStatus>
+    <poUpdateUser>1</poUpdateUser>
+    <price>410</price>
+    <productNumber>SD00200757J</productNumber>
+    <purchaseOrderId>1</purchaseOrderId>
+    <purchaseOrderNumber>13985</purchaseOrderNumber>
+    <purchasingCode>J76</purchasingCode>
+    <receivingNumber>80000</receivingNumber>
+    <sapStatus>1</sapStatus>
+    <singleWeight>1</singleWeight>
+    <spare1>1</spare1>
+    <spare2>1</spare2>
+    <spare3>1</spare3>
+    <spare4>1</spare4>
+    <spare5>1</spare5>
+    <specificationDescription>S RES 1/8W 0 +-5% 9524</specificationDescription>
+    <synchronizationStatus>1</synchronizationStatus>
+    <updatetime null="true"/>
+    <version>1</version>
+    <volume>1</volume>
+  </e>
+  <e>
+    <approvalDate1>2018-12-21 09:30:38</approvalDate1>
+    <approvalDate2>2018-12-21 09:30:38</approvalDate2>
+    <approvalStatus>1</approvalStatus>
+    <approveOpinion/>
+    <approver1>1</approver1>
+    <approver2>1</approver2>
+    <cloudPoNumber>4300000732</cloudPoNumber>
+    <company>PC</company>
+    <confirmationDeliverytime null="true"/>
+    <createtime>2018-12-21 09:30:38</createtime>
+    <currency>USD</currency>
+    <deliverytime>2018-12-20 14:32:09</deliverytime>
+    <factorySeparation>CN03</factorySeparation>
+    <grossWeight>0</grossWeight>
+    <id>16</id>
+    <isManualOrder>1</isManualOrder>
+    <item>10</item>
+    <library>TVMI</library>
+    <lineItemType>11</lineItemType>
+    <lineNumber>1</lineNumber>
+    <manufacturerCode>JTAT6</manufacturerCode>
+    <openAsn>15000</openAsn>
+    <poCreateUser/>
+    <poStatus>1</poStatus>
+    <poUpdateUser>1</poUpdateUser>
+    <price>410</price>
+    <productNumber>SD00200856J</productNumber>
+    <purchaseOrderId>1</purchaseOrderId>
+    <purchaseOrderNumber>13985</purchaseOrderNumber>
+    <purchasingCode>J76</purchasingCode>
+    <receivingNumber>80000</receivingNumber>
+    <sapStatus>1</sapStatus>
+    <singleWeight>1</singleWeight>
+    <spare1>1</spare1>
+    <spare2>1</spare2>
+    <spare3>1</spare3>
+    <spare4>1</spare4>
+    <spare5>1</spare5>
+    <specificationDescription>S RES 1/8W 0 +-5% 6782</specificationDescription>
+    <synchronizationStatus>1</synchronizationStatus>
+    <updatetime null="true"/>
+    <version>1</version>
+    <volume>1</volume>
+  </e>
+  <e>
+    <approvalDate1>2018-12-21 09:30:38</approvalDate1>
+    <approvalDate2>2018-12-21 09:30:38</approvalDate2>
+    <approvalStatus>1</approvalStatus>
+    <approveOpinion/>
+    <approver1>1</approver1>
+    <approver2>1</approver2>
+    <cloudPoNumber>6300000732</cloudPoNumber>
+    <company>PC</company>
+    <confirmationDeliverytime null="true"/>
+    <createtime>2018-12-21 09:30:38</createtime>
+    <currency>USD</currency>
+    <deliverytime>2018-12-20 14:32:09</deliverytime>
+    <factorySeparation>CN04</factorySeparation>
+    <grossWeight>0</grossWeight>
+    <id>17</id>
+    <isManualOrder>1</isManualOrder>
+    <item>10</item>
+    <library>TVMI</library>
+    <lineItemType>11</lineItemType>
+    <lineNumber>1</lineNumber>
+    <manufacturerCode>JTAT6</manufacturerCode>
+    <openAsn>15000</openAsn>
+    <poCreateUser/>
+    <poStatus>1</poStatus>
+    <poUpdateUser>1</poUpdateUser>
+    <price>410</price>
+    <productNumber>SD00200857J</productNumber>
+    <purchaseOrderId>1</purchaseOrderId>
+    <purchaseOrderNumber>13985</purchaseOrderNumber>
+    <purchasingCode>J76</purchasingCode>
+    <receivingNumber>80000</receivingNumber>
+    <sapStatus>1</sapStatus>
+    <singleWeight>1</singleWeight>
+    <spare1>1</spare1>
+    <spare2>1</spare2>
+    <spare3>1</spare3>
+    <spare4>1</spare4>
+    <spare5>1</spare5>
+    <specificationDescription>S RES 1/8W 0 +-5% 6891</specificationDescription>
+    <synchronizationStatus>1</synchronizationStatus>
+    <updatetime null="true"/>
+    <version>1</version>
+    <volume>1</volume>
+  </e>
+  <e>
+    <approvalDate1>2018-12-21 09:30:38</approvalDate1>
+    <approvalDate2>2018-12-21 09:30:38</approvalDate2>
+    <approvalStatus>1</approvalStatus>
+    <approveOpinion/>
+    <approver1>1</approver1>
+    <approver2>1</approver2>
+    <cloudPoNumber>7300000732</cloudPoNumber>
+    <company>PC</company>
+    <confirmationDeliverytime null="true"/>
+    <createtime>2018-12-21 09:30:38</createtime>
+    <currency>USD</currency>
+    <deliverytime>2018-12-20 14:32:09</deliverytime>
+    <factorySeparation>CN08</factorySeparation>
+    <grossWeight>0</grossWeight>
+    <id>18</id>
+    <isManualOrder>1</isManualOrder>
+    <item>10</item>
+    <library>TVMI</library>
+    <lineItemType>11</lineItemType>
+    <lineNumber>1</lineNumber>
+    <manufacturerCode>JTAT6</manufacturerCode>
+    <openAsn>15000</openAsn>
+    <poCreateUser/>
+    <poStatus>1</poStatus>
+    <poUpdateUser>1</poUpdateUser>
+    <price>410</price>
+    <productNumber>SD00200245J</productNumber>
+    <purchaseOrderId>1</purchaseOrderId>
+    <purchaseOrderNumber>13985</purchaseOrderNumber>
+    <purchasingCode>J76</purchasingCode>
+    <receivingNumber>80000</receivingNumber>
+    <sapStatus>1</sapStatus>
+    <singleWeight>1</singleWeight>
+    <spare1>1</spare1>
+    <spare2>1</spare2>
+    <spare3>1</spare3>
+    <spare4>1</spare4>
+    <spare5>1</spare5>
+    <specificationDescription>S RES 1/8W 0 +-5% 6845</specificationDescription>
+    <synchronizationStatus>1</synchronizationStatus>
+    <updatetime null="true"/>
+    <version>1</version>
+    <volume>1</volume>
+  </e>
+  <e>
+    <approvalDate1>2018-12-21 09:30:38</approvalDate1>
+    <approvalDate2>2018-12-21 09:30:38</approvalDate2>
+    <approvalStatus>1</approvalStatus>
+    <approveOpinion/>
+    <approver1>1</approver1>
+    <approver2>1</approver2>
+    <cloudPoNumber>8900000732</cloudPoNumber>
+    <company>PC</company>
+    <confirmationDeliverytime null="true"/>
+    <createtime>2018-12-21 09:30:38</createtime>
+    <currency>USD</currency>
+    <deliverytime>2018-12-20 14:32:09</deliverytime>
+    <factorySeparation>CN04</factorySeparation>
+    <grossWeight>0</grossWeight>
+    <id>19</id>
+    <isManualOrder>1</isManualOrder>
+    <item>10</item>
+    <library>TVMI</library>
+    <lineItemType>11</lineItemType>
+    <lineNumber>1</lineNumber>
+    <manufacturerCode>JTAT6</manufacturerCode>
+    <openAsn>15000</openAsn>
+    <poCreateUser/>
+    <poStatus>1</poStatus>
+    <poUpdateUser>1</poUpdateUser>
+    <price>410</price>
+    <productNumber>SD00200134J</productNumber>
+    <purchaseOrderId>1</purchaseOrderId>
+    <purchaseOrderNumber>13985</purchaseOrderNumber>
+    <purchasingCode>J76</purchasingCode>
+    <receivingNumber>80000</receivingNumber>
+    <sapStatus>1</sapStatus>
+    <singleWeight>1</singleWeight>
+    <spare1>1</spare1>
+    <spare2>1</spare2>
+    <spare3>1</spare3>
+    <spare4>1</spare4>
+    <spare5>1</spare5>
+    <specificationDescription>S RES 1/8W 0 +-5% 9534</specificationDescription>
+    <synchronizationStatus>1</synchronizationStatus>
+    <updatetime null="true"/>
+    <version>1</version>
+    <volume>1</volume>
+  </e>
+  <e>
+    <approvalDate1>2018-12-21 09:30:38</approvalDate1>
+    <approvalDate2>2018-12-21 09:30:38</approvalDate2>
+    <approvalStatus>1</approvalStatus>
+    <approveOpinion/>
+    <approver1>1</approver1>
+    <approver2>1</approver2>
+    <cloudPoNumber>9700000732</cloudPoNumber>
+    <company>PC</company>
+    <confirmationDeliverytime null="true"/>
+    <createtime>2018-12-21 09:30:38</createtime>
+    <currency>USD</currency>
+    <deliverytime>2018-12-20 14:32:09</deliverytime>
+    <factorySeparation>CN09</factorySeparation>
+    <grossWeight>0</grossWeight>
+    <id>20</id>
+    <isManualOrder>1</isManualOrder>
+    <item>10</item>
+    <library>TVMI</library>
+    <lineItemType>11</lineItemType>
+    <lineNumber>1</lineNumber>
+    <manufacturerCode>JTAT6</manufacturerCode>
+    <openAsn>15000</openAsn>
+    <poCreateUser/>
+    <poStatus>1</poStatus>
+    <poUpdateUser>1</poUpdateUser>
+    <price>410</price>
+    <productNumber>SD00200375J</productNumber>
+    <purchaseOrderId>1</purchaseOrderId>
+    <purchaseOrderNumber>13985</purchaseOrderNumber>
+    <purchasingCode>J76</purchasingCode>
+    <receivingNumber>80000</receivingNumber>
+    <sapStatus>1</sapStatus>
+    <singleWeight>1</singleWeight>
+    <spare1>1</spare1>
+    <spare2>1</spare2>
+    <spare3>1</spare3>
+    <spare4>1</spare4>
+    <spare5>1</spare5>
+    <specificationDescription>S RES 1/8W 0 +-5% /*764</specificationDescription>
+    <synchronizationStatus>1</synchronizationStatus>
+    <updatetime null="true"/>
+    <version>1</version>
+    <volume>1</volume>
+  </e>
+  <e>
+    <approvalDate1>2018-12-21 09:30:38</approvalDate1>
+    <approvalDate2>2018-12-21 09:30:38</approvalDate2>
+    <approvalStatus>1</approvalStatus>
+    <approveOpinion/>
+    <approver1>1</approver1>
+    <approver2>1</approver2>
+    <cloudPoNumber>4640000073</cloudPoNumber>
+    <company>PC</company>
+    <confirmationDeliverytime null="true"/>
+    <createtime>2018-12-21 09:30:38</createtime>
+    <currency>USD</currency>
+    <deliverytime>2018-12-20 14:32:09</deliverytime>
+    <factorySeparation>CN05</factorySeparation>
+    <grossWeight>0</grossWeight>
+    <id>21</id>
+    <isManualOrder>1</isManualOrder>
+    <item>10</item>
+    <library>TVMI</library>
+    <lineItemType>11</lineItemType>
+    <lineNumber>1</lineNumber>
+    <manufacturerCode>JTAT6</manufacturerCode>
+    <openAsn>15000</openAsn>
+    <poCreateUser/>
+    <poStatus>1</poStatus>
+    <poUpdateUser>1</poUpdateUser>
+    <price>410</price>
+    <productNumber>SD00200856J</productNumber>
+    <purchaseOrderId>1</purchaseOrderId>
+    <purchaseOrderNumber>13985</purchaseOrderNumber>
+    <purchasingCode>J76</purchasingCode>
+    <receivingNumber>80000</receivingNumber>
+    <sapStatus>1</sapStatus>
+    <singleWeight>1</singleWeight>
+    <spare1>1</spare1>
+    <spare2>1</spare2>
+    <spare3>1</spare3>
+    <spare4>1</spare4>
+    <spare5>1</spare5>
+    <specificationDescription>S RES 1/8W 0 +-5% 687/</specificationDescription>
+    <synchronizationStatus>1</synchronizationStatus>
+    <updatetime null="true"/>
+    <version>1</version>
+    <volume>1</volume>
+  </e>
+  <e>
+    <approvalDate1>2018-12-21 09:30:38</approvalDate1>
+    <approvalDate2>2018-12-21 09:30:38</approvalDate2>
+    <approvalStatus>1</approvalStatus>
+    <approveOpinion/>
+    <approver1>1</approver1>
+    <approver2>1</approver2>
+    <cloudPoNumber>4100000732</cloudPoNumber>
+    <company>PC</company>
+    <confirmationDeliverytime null="true"/>
+    <createtime>2018-12-21 09:30:38</createtime>
+    <currency>USD</currency>
+    <deliverytime>2018-12-20 14:32:09</deliverytime>
+    <factorySeparation>CN02</factorySeparation>
+    <grossWeight>0</grossWeight>
+    <id>22</id>
+    <isManualOrder>1</isManualOrder>
+    <item>10</item>
+    <library>TVMI</library>
+    <lineItemType>11</lineItemType>
+    <lineNumber>1</lineNumber>
+    <manufacturerCode>JTAT6</manufacturerCode>
+    <openAsn>15000</openAsn>
+    <poCreateUser/>
+    <poStatus>1</poStatus>
+    <poUpdateUser>1</poUpdateUser>
+    <price>410</price>
+    <productNumber>SD00200875J</productNumber>
+    <purchaseOrderId>1</purchaseOrderId>
+    <purchaseOrderNumber>13985</purchaseOrderNumber>
+    <purchasingCode>J76</purchasingCode>
+    <receivingNumber>80000</receivingNumber>
+    <sapStatus>1</sapStatus>
+    <singleWeight>1</singleWeight>
+    <spare1>1</spare1>
+    <spare2>1</spare2>
+    <spare3>1</spare3>
+    <spare4>1</spare4>
+    <spare5>1</spare5>
+    <specificationDescription>S RES 1/8W 0 +-5% 6346</specificationDescription>
+    <synchronizationStatus>1</synchronizationStatus>
+    <updatetime null="true"/>
+    <version>1</version>
+    <volume>1</volume>
+  </e>
+  <e>
+    <approvalDate1>2018-12-21 09:30:38</approvalDate1>
+    <approvalDate2>2018-12-21 09:30:38</approvalDate2>
+    <approvalStatus>1</approvalStatus>
+    <approveOpinion/>
+    <approver1>1</approver1>
+    <approver2>1</approver2>
+    <cloudPoNumber>4100000732</cloudPoNumber>
+    <company>PC</company>
+    <confirmationDeliverytime null="true"/>
+    <createtime>2018-12-21 09:30:38</createtime>
+    <currency>USD</currency>
+    <deliverytime>2018-12-20 14:32:09</deliverytime>
+    <factorySeparation>CN01</factorySeparation>
+    <grossWeight>0</grossWeight>
+    <id>23</id>
+    <isManualOrder>1</isManualOrder>
+    <item>10</item>
+    <library>TVMI</library>
+    <lineItemType>11</lineItemType>
+    <lineNumber>1</lineNumber>
+    <manufacturerCode>JTAT6</manufacturerCode>
+    <openAsn>15000</openAsn>
+    <poCreateUser/>
+    <poStatus>1</poStatus>
+    <poUpdateUser>1</poUpdateUser>
+    <price>410</price>
+    <productNumber>SD00200723J</productNumber>
+    <purchaseOrderId>1</purchaseOrderId>
+    <purchaseOrderNumber>13985</purchaseOrderNumber>
+    <purchasingCode>J76</purchasingCode>
+    <receivingNumber>80000</receivingNumber>
+    <sapStatus>1</sapStatus>
+    <singleWeight>1</singleWeight>
+    <spare1>1</spare1>
+    <spare2>1</spare2>
+    <spare3>1</spare3>
+    <spare4>1</spare4>
+    <spare5>1</spare5>
+    <specificationDescription>S RES 1/8W 0 +-5% 9453</specificationDescription>
+    <synchronizationStatus>1</synchronizationStatus>
+    <updatetime null="true"/>
+    <version>1</version>
+    <volume>1</volume>
+  </e>
+  <e>
+    <approvalDate1>2018-12-21 09:30:38</approvalDate1>
+    <approvalDate2>2018-12-21 09:30:38</approvalDate2>
+    <approvalStatus>1</approvalStatus>
+    <approveOpinion/>
+    <approver1>1</approver1>
+    <approver2>1</approver2>
+    <cloudPoNumber>4100000732</cloudPoNumber>
+    <company>PC</company>
+    <confirmationDeliverytime null="true"/>
+    <createtime>2018-12-21 09:30:38</createtime>
+    <currency>USD</currency>
+    <deliverytime>2018-12-20 14:32:09</deliverytime>
+    <factorySeparation>CN06</factorySeparation>
+    <grossWeight>0</grossWeight>
+    <id>24</id>
+    <isManualOrder>1</isManualOrder>
+    <item>10</item>
+    <library>TVMI</library>
+    <lineItemType>11</lineItemType>
+    <lineNumber>1</lineNumber>
+    <manufacturerCode>JTAT6</manufacturerCode>
+    <openAsn>15000</openAsn>
+    <poCreateUser/>
+    <poStatus>1</poStatus>
+    <poUpdateUser>1</poUpdateUser>
+    <price>410</price>
+    <productNumber>SD00200715J</productNumber>
+    <purchaseOrderId>1</purchaseOrderId>
+    <purchaseOrderNumber>13985</purchaseOrderNumber>
+    <purchasingCode>J76</purchasingCode>
+    <receivingNumber>80000</receivingNumber>
+    <sapStatus>1</sapStatus>
+    <singleWeight>1</singleWeight>
+    <spare1>1</spare1>
+    <spare2>1</spare2>
+    <spare3>1</spare3>
+    <spare4>1</spare4>
+    <spare5>1</spare5>
+    <specificationDescription>S RES 1/8W 0 +-5% 3486</specificationDescription>
+    <synchronizationStatus>1</synchronizationStatus>
+    <updatetime null="true"/>
+    <version>1</version>
+    <volume>1</volume>
+  </e>
+  <e>
+    <approvalDate1>2018-12-21 09:30:38</approvalDate1>
+    <approvalDate2>2018-12-21 09:30:38</approvalDate2>
+    <approvalStatus>1</approvalStatus>
+    <approveOpinion/>
+    <approver1>1</approver1>
+    <approver2>1</approver2>
+    <cloudPoNumber>4100000732</cloudPoNumber>
+    <company>PC</company>
+    <confirmationDeliverytime null="true"/>
+    <createtime>2018-12-21 09:30:38</createtime>
+    <currency>USD</currency>
+    <deliverytime>2018-12-20 14:32:09</deliverytime>
+    <factorySeparation>CN03</factorySeparation>
+    <grossWeight>0</grossWeight>
+    <id>6</id>
+    <isManualOrder>1</isManualOrder>
+    <item>10</item>
+    <library>TVMI</library>
+    <lineItemType>11</lineItemType>
+    <lineNumber>1</lineNumber>
+    <manufacturerCode>JTAT6</manufacturerCode>
+    <openAsn>15000</openAsn>
+    <poCreateUser/>
+    <poStatus>1</poStatus>
+    <poUpdateUser>1</poUpdateUser>
+    <price>410</price>
+    <productNumber>SD00200345J</productNumber>
+    <purchaseOrderId>1</purchaseOrderId>
+    <purchaseOrderNumber>13985</purchaseOrderNumber>
+    <purchasingCode>J76</purchasingCode>
+    <receivingNumber>80000</receivingNumber>
+    <sapStatus>1</sapStatus>
+    <singleWeight>1</singleWeight>
+    <spare1>1</spare1>
+    <spare2>1</spare2>
+    <spare3>1</spare3>
+    <spare4>1</spare4>
+    <spare5>1</spare5>
+    <specificationDescription>S RES 1/8W 0 +-5% 0805</specificationDescription>
+    <synchronizationStatus>1</synchronizationStatus>
+    <updatetime null="true"/>
+    <version>1</version>
+    <volume>1</volume>
+  </e>
+  <e>
+    <approvalDate1>2018-12-21 09:30:38</approvalDate1>
+    <approvalDate2>2018-12-21 09:30:38</approvalDate2>
+    <approvalStatus>1</approvalStatus>
+    <approveOpinion/>
+    <approver1>1</approver1>
+    <approver2>1</approver2>
+    <cloudPoNumber>3240000732</cloudPoNumber>
+    <company>PC</company>
+    <confirmationDeliverytime null="true"/>
+    <createtime>2018-12-21 09:30:38</createtime>
+    <currency>USD</currency>
+    <deliverytime>2018-12-20 14:32:09</deliverytime>
+    <factorySeparation>CN03</factorySeparation>
+    <grossWeight>0</grossWeight>
+    <id>7</id>
+    <isManualOrder>1</isManualOrder>
+    <item>10</item>
+    <library>TVMI</library>
+    <lineItemType>11</lineItemType>
+    <lineNumber>1</lineNumber>
+    <manufacturerCode>JTAT6</manufacturerCode>
+    <openAsn>15000</openAsn>
+    <poCreateUser/>
+    <poStatus>1</poStatus>
+    <poUpdateUser>1</poUpdateUser>
+    <price>410</price>
+    <productNumber>SD00200563J</productNumber>
+    <purchaseOrderId>1</purchaseOrderId>
+    <purchaseOrderNumber>13985</purchaseOrderNumber>
+    <purchasingCode>J76</purchasingCode>
+    <receivingNumber>80000</receivingNumber>
+    <sapStatus>1</sapStatus>
+    <singleWeight>1</singleWeight>
+    <spare1>1</spare1>
+    <spare2>1</spare2>
+    <spare3>1</spare3>
+    <spare4>1</spare4>
+    <spare5>1</spare5>
+    <specificationDescription>S RES 1/8W 0 +-5% 6484</specificationDescription>
+    <synchronizationStatus>1</synchronizationStatus>
+    <updatetime null="true"/>
+    <version>1</version>
+    <volume>1</volume>
+  </e>
+  <e>
+    <approvalDate1>2018-12-21 09:30:38</approvalDate1>
+    <approvalDate2>2018-12-21 09:30:38</approvalDate2>
+    <approvalStatus>1</approvalStatus>
+    <approveOpinion/>
+    <approver1>1</approver1>
+    <approver2>1</approver2>
+    <cloudPoNumber>4100000732</cloudPoNumber>
+    <company>PC</company>
+    <confirmationDeliverytime null="true"/>
+    <createtime>2018-12-21 09:30:38</createtime>
+    <currency>USD</currency>
+    <deliverytime>2018-12-20 14:32:09</deliverytime>
+    <factorySeparation>CN03</factorySeparation>
+    <grossWeight>0</grossWeight>
+    <id>8</id>
+    <isManualOrder>1</isManualOrder>
+    <item>10</item>
+    <library>TVMI</library>
+    <lineItemType>11</lineItemType>
+    <lineNumber>1</lineNumber>
+    <manufacturerCode>JTAT6</manufacturerCode>
+    <openAsn>15000</openAsn>
+    <poCreateUser/>
+    <poStatus>1</poStatus>
+    <poUpdateUser>1</poUpdateUser>
+    <price>410</price>
+    <productNumber>SD00200374J</productNumber>
+    <purchaseOrderId>1</purchaseOrderId>
+    <purchaseOrderNumber>13985</purchaseOrderNumber>
+    <purchasingCode>J76</purchasingCode>
+    <receivingNumber>80000</receivingNumber>
+    <sapStatus>1</sapStatus>
+    <singleWeight>1</singleWeight>
+    <spare1>1</spare1>
+    <spare2>1</spare2>
+    <spare3>1</spare3>
+    <spare4>1</spare4>
+    <spare5>1</spare5>
+    <specificationDescription>S RES 1/8W 0 +-5% 9753</specificationDescription>
+    <synchronizationStatus>1</synchronizationStatus>
+    <updatetime null="true"/>
+    <version>1</version>
+    <volume>1</volume>
+  </e>
+  <e>
+    <approvalDate1>2018-12-21 09:30:38</approvalDate1>
+    <approvalDate2>2018-12-21 09:30:38</approvalDate2>
+    <approvalStatus>1</approvalStatus>
+    <approveOpinion/>
+    <approver1>1</approver1>
+    <approver2>1</approver2>
+    <cloudPoNumber>567000732</cloudPoNumber>
+    <company>PC</company>
+    <confirmationDeliverytime null="true"/>
+    <createtime>2018-12-21 09:30:38</createtime>
+    <currency>USD</currency>
+    <deliverytime>2018-12-20 14:32:09</deliverytime>
+    <factorySeparation>CN08</factorySeparation>
+    <grossWeight>0</grossWeight>
+    <id>9</id>
+    <isManualOrder>1</isManualOrder>
+    <item>10</item>
+    <library>TVMI</library>
+    <lineItemType>11</lineItemType>
+    <lineNumber>1</lineNumber>
+    <manufacturerCode>JTAT6</manufacturerCode>
+    <openAsn>15000</openAsn>
+    <poCreateUser/>
+    <poStatus>1</poStatus>
+    <poUpdateUser>1</poUpdateUser>
+    <price>410</price>
+    <productNumber>SD00200846J</productNumber>
+    <purchaseOrderId>1</purchaseOrderId>
+    <purchaseOrderNumber>13985</purchaseOrderNumber>
+    <purchasingCode>J76</purchasingCode>
+    <receivingNumber>80000</receivingNumber>
+    <sapStatus>1</sapStatus>
+    <singleWeight>1</singleWeight>
+    <spare1>1</spare1>
+    <spare2>1</spare2>
+    <spare3>1</spare3>
+    <spare4>1</spare4>
+    <spare5>1</spare5>
+    <specificationDescription>S RES 1/8W 0 +-5% 9752</specificationDescription>
+    <synchronizationStatus>1</synchronizationStatus>
+    <updatetime null="true"/>
+    <version>1</version>
+    <volume>1</volume>
+  </e>
+</xml>

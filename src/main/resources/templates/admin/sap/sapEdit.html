@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8">
+    <title th:text="${title}">
+    </title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="../static/css/x-admin.css" media="all">
+    <style type="text/css">
+        .layui-input-own{
+            border: 0;
+            width: 95%;
+            padding-top: 10px;
+            padding-bottom: 10px
+        }
+    </style>
+</head>
+
+<body>
+<div class="x-body">
+    <form class="layui-form" id="formsedit">
+        <input type="hidden" name="id" th:value="${data?.id}" />
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label for="name" class="layui-form-label">
+                    接口名称
+                </label>
+                <div class="layui-input-inline">
+                    <input type="text" id="name" name="name" required th:value="${data?.name}"class="layui-input" required lay-verify="required">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label for="content" class="layui-form-label">
+                    说明
+                </label>
+                <div class="layui-input-inline">
+                    <input type="text" id="content" name="content" required th:value="${data?.content}"class="layui-input">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label for="infoid.id" class="layui-form-label">
+                    接口源
+                </label>
+                <div class="layui-input-inline" >
+                    <select id="infoid.id" name="infoid.id" required class="layui-input">
+                        <option th:selected="${il.id==data?.infoid?.id}" th:each="il:${infoList}" th:value="${il.id}"><span th:text="${il.ashost}"></span></option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="layui-form-item" style="margin-bottom: 50px;">
+            <div class="layui-inline">
+                <div>输入表</div>
+                <div class="layui-input-inline" style="border: 1px solid #1ba194;width:300px;padding: 10px;    height: 335px">
+                    <input type="checkbox" th:each="tl:${tableList}" th:checked="${yesInList?.contains(tl.id)}" th:value="${tl.id}" name="yesInList" th:title="${tl.name +'----'+tl.content}" />
+                </div>
+            </div>
+            <div class="layui-inline" style="float: right">
+                <div>输出表</div>
+                <div class="layui-input-inline" style="border: 1px solid #1ba194;width:300px;padding: 10px;    height: 335px">
+                    <input type="checkbox" th:each="tl:${tableList}" th:checked="${yesOutList?.contains(tl.id)}" th:value="${tl.id}" name="yesOutList" th:title="${tl.name +'----'+tl.content}" />
+                </div>
+            </div>
+        </div>
+        <div class="layui-form-item" style="text-align: center;bottom: 0px;left: 0px;position: fixed;width: 100%;">
+            <br/>
+            <button class="layui-btn" key="set-mine" lay-filter="save" lay-submit>
+                保存
+            </button>
+        </div>
+    </form>
+</div>
+<script src="../static/js/jquery.min.js" charset="utf-8"></script>
+<script src="../static/layui/layui.js" charset="utf-8">
+</script>
+<script src="../static/js/x-layui.js" charset="utf-8">
+</script>
+<script  th:inline="javascript">
+    $(document).ready(function(){
+
+    });
+    layui.use(['form','layer'], function(){
+        var form;
+        var layer;
+        $ = layui.jquery;
+        form = layui.form();
+        layer = layui.layer;
+        form.on('submit(save)', function(data){
+            $.post("../sap/savesap.html?_="+new Date().getTime(),$("#formsedit").serialize(),function(res){
+                if(res.result){
+                    layer.alert("保存成功", {icon: 6});
+                    parent.location.reload();
+                }else{
+                    layer.alert("保存失败", {icon: 6});
+                    parent.location.reload();
+                }
+            },'json');
+            return false;
+        });
+    });
+</script>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?b393d153aeb26b46e9431fabaf0f6190";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+</body>
+
+</html>
