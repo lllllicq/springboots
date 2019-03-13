@@ -12,4 +12,6 @@ public interface GetPOInfoByVendor extends JpaRepository<POVendorPOInfo, String>
 
     @Query("select t from POVendorPOInfo t where t.vendorCode=?1")
     public List<POVendorPOInfo> getPOInfoByVendorNum(String vendorNum);
+
+
 }

@@ -20,6 +20,7 @@ import org.dom4j.io.XMLWriter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpRequest;
+import org.springframework.util.ClassUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
@@ -419,11 +420,16 @@ public class IndexController {
         JSONObject json=new JSONObject();
         String encoding = "UTF-8";
 
+        //String file1Path = ClassUtils.getDefaultClassLoader().getResource("").getPath();
+
         MultipartFile file = request.getFile("file");
         String fileName= file.getOriginalFilename();
         String V1 = fileName.substring(fileName.lastIndexOf(".")+1);
-        File file1 = new File("d://"+file.getOriginalFilename());
+        File file1 = new File(file.getOriginalFilename());
         file.transferTo(file1);
+
+        Date date = null;
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 
         if("txt".equals(V1)){
 
@@ -436,17 +442,17 @@ public class IndexController {
 
             String[] lines = result.split("\r\n");
             String[] columns = null;
-            POVendorPOInfo poInfo = new POVendorPOInfo();
             if(lines.length == 0){
                 json.put("msg","请上传正确的文件!!");
                 return json.toString();
             }else{
                 for(String line:lines){
                     columns = line.split("\t");
-                    if(columns.length != 25){
+                    if(columns.length != 23){
                         json.put("msg","请上传正确的文件!!");
                         return json.toString();
                     }else{
+                        POVendorPOInfo poInfo = new POVendorPOInfo();
                         poInfo.setVersion(columns[0]);
                         poInfo.setPlant(columns[1]);
                         poInfo.setVendorCode(columns[2]);
@@ -456,31 +462,50 @@ public class IndexController {
                         poInfo.setQuantity(new Integer(columns[6]));
                         poInfo.setCurrency(columns[7]);
                         poInfo.setPrice(new Float(columns[8]));
-                        poInfo.setRma(columns[9]);
-                        poInfo.setDeliveryDate(new Date(columns[10]));
-                        poInfo.setActualShipmentTime(new Date(columns[11]));
-//                        GRQty
-//                                openASN
-//                        location
-//                                LOCATIon_Des
-//                        buyer_CodE
-//                                specification
-//                        uNIT
-//                                manual
-//                        po_STATUs
-//                                REt_Code
-//                        ret_MessAGE
-//                                CrEATE_Time
-//                        update_TiME
+
+                        if(columns[9].length() == 1) {
+                            poInfo.setRma(columns[9]);
+                        }
+
+                        try {
+                            date = sdf.parse(columns[10]);
+                            poInfo.setDeliveryDate(date);
+                        }catch (Exception e){
+                            e.printStackTrace();
+                        }
+
+                        try {
+                            date = sdf.parse(columns[11]);
+                            poInfo.setActualShipmentTime(date);
+                        }catch (Exception e){
+                            e.printStackTrace();
+                        }
+
+                        poInfo.setGRQty(new Integer(columns[12]));
+                        poInfo.setOpenASN(new Integer(columns[13]));
+                        poInfo.setLocation(columns[14]);
+                        poInfo.setLocationDes(columns[15]);
+                        poInfo.setBuyerCode(columns[16]);
+                        poInfo.setSpecification(columns[17]);
+                        poInfo.setUnit(columns[18]);
+                        if(columns[19].length() == 1) {
+                            poInfo.setManual(columns[19]);
+                        }
+                        poInfo.setPoStatus(new Integer(columns[20]));
+                        poInfo.setRetCode(columns[21]);
+                        poInfo.setRetMessage(columns[22]);
+                        poInfo.setCreateTime(new Date());
+                        poInfo.setUpdateTime(new Date());
+
+                        if(poInfo != null) {
+                            apiService.saveOrUpdatePOVendorPOInfo(poInfo);
+                        }
                     }
 
                 }
-
+                json.put("msg","上传成功!!");
+                return json.toString();
             }
-
-
-            json.put("msg",result);
-            return json.toString();
         }
 
         json.put("msg","请上传TXT类型的文件!!");

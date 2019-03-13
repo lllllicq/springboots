@@ -23,4 +23,6 @@ public interface ApiService {
 
 	public List<POVendorPOInfo> getPOInfoByVendor(String vendorNum);
 
+	public void saveOrUpdatePOVendorPOInfo(POVendorPOInfo poInfo);
+
 }

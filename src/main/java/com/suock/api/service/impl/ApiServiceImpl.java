@@ -102,6 +102,12 @@ public class ApiServiceImpl implements ApiService {
 	}
 
 	@Override
+	public void saveOrUpdatePOVendorPOInfo(POVendorPOInfo poInfo) {
+		//getPOInfoByVendorDao.save(poInfo);
+		getPOInfoByVendorDao.saveAndFlush(poInfo);
+	}
+
+	@Override
 	public List<POVendorPOInfo> getPOInfoByVendor(String vendorNum) {
 		List<POVendorPOInfo> poInfos = getPOInfoByVendorDao.getPOInfoByVendorNum(vendorNum);
 		return poInfos;
